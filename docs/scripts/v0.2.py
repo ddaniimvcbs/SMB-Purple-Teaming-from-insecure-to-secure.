@@ -1,4 +1,4 @@
-import sys      #Libreria para interactuar directamente con el interpreter de Python y el OS
+import sys          #Libreria para interactuar directamente con el interpreter de Python y el OS
 import subprocess   # Libreria de Python para ejecutar comandos como si estuvieramos en la terminal
 import re           # Herramienta para buscar, extraer, reemplazar patrones de texto dentro de cadenas de texto
                       #(usado principalmente para quitar caracteres ANSI del texto de enum4linux)
@@ -12,8 +12,6 @@ def menu_principal():
     print("AUDITORIA SERVIDORES SMB V0.2")
     print("-" * 30)
 #----------------------------------------
-
-
 
 
 
@@ -59,7 +57,7 @@ def menu_resultados(resultados):
             print("Opción no válida")
 
 
-
+#-------------------------------------------------------
 
 #Funcion para sacar los resultados, en un diccionario
 def sacar_resultados_texto(texto_comando_con_split):
@@ -108,7 +106,7 @@ def sacar_resultados_texto(texto_comando_con_split):
     
     return resultados
 
-
+#----------------------------------------------------------------------------------------------------
 
 #Funcion para comprobar los puertos cogiendo como parametros una ip y los puertos que el usuario elija
 def comprobar_puertos(ip_introducida,puertos_introducidos):
