@@ -31,7 +31,7 @@ Lan Manager era un sistema de autenticacion antiguo de Windows, el cual lo "úni
  
   - NO se parte a la mitad, se junta todo en un solo bloque
  
-  - Soporta contraseñas larguiiiisimas
+  - Soporta contraseñas muy largas
  
   - Las Rainbow Tables se volvieron practicamente inutiles, por el increible numero de hashes       en total de cada contraseña posible
  
