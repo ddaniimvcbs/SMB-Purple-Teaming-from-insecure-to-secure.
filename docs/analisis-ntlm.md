@@ -105,7 +105,7 @@ Quiere decir que el servidor necesita mas informacion (que nos autentiquemos) y 
 
 En este punto la contraseña ha sido pasada a un hash, y se mezclará con el NTLM Server Challenge que acaba de mandar el servidor. Aquí ya la contraseña en texto plano es imposible de ver, se ha convertido en hash y se combina con el desafío.
 
-El servidor, por su parte, ya tiene guardado el hash de la contraseña de ese usuario desde que fue dado de alta en Samba. Cuando le llega la respuesta del cliente, el servidor coge ese hash guardado y lo mezcla con el mismo desafío que él mismo mandó. Si el resultado de esa mezcla coincide con lo que le llegó del cliente, se logueara con exito, si no, rechazado:
+El servidor, por su parte, ya tiene guardado el hash de la contraseña de ese usuario desde que fue dado de alta en Samba. Cuando le llega la respuesta del cliente, el servidor coge ese hash guardado y lo mezcla con el mismo desafío que él mismo mandó. Si el resultado de esa mezcla coincide con lo que le llegó del cliente, se inicia sesión con éxito; si no, queda rechazado.
 
 
 
