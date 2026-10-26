@@ -1,11 +1,11 @@
 # Configuración del servidor (protegido)
 
-## Entorno
-Sistema operativo: Ubuntu Server 26.04.1 
-Máquina virtual: VirtualBox
-Versión de Samba: ver4.23.6
+# Entorno
+## Sistema operativo: Ubuntu Server 26.04.1 
+## Máquina virtual: VirtualBox
+## Versión de Samba: ver4.23.6
 
-## Configuración del servidor (smb.conf)
+# Configuración del servidor (smb.conf)
 
 La configuración establece SMB3 como protocolo mínimo, exige el cifrado y la firma de los mensajes SMB, deshabilita NetBIOS y define una carpeta compartida con acceso restringido a un grupo de usuarios.
 
