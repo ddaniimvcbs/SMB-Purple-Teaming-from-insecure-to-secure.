@@ -1,6 +1,6 @@
 -LEER-
 
-Kerberos Queda fuera del alcance de este documento (de momento) porque mi laboratorio actual usa Samba independiente, sin dominio
+Kerberos queda fuera del alcance de este documento (de momento) porque mi laboratorio actual usa Samba independiente, sin dominio
 
 -----------------------------------
 
