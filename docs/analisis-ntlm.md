@@ -72,7 +72,19 @@ Paso 1 (CLIENTE >>> SERVIDOR)
 
 
 
+
+
+
+
+
+
 En el primer paquete (NTLMSSP_NEGOTIATE), cliente saluda al servidor, acuerdan version SMB, firma y cifrado:
+
+
+
+
+
+
 
 
 
