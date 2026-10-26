@@ -1,4 +1,4 @@
------------------LEER--------------
+#LEER
 
 Kerberos Queda fuera del alcance de este documento (de momento) porque mi laboratorio actual usa Samba independiente, sin dominio
 
@@ -6,7 +6,7 @@ Kerberos Queda fuera del alcance de este documento (de momento) porque mi labora
 
 
 
-Voy a empezar explicando porque surgió este método de autentificación, y sus orígenes (me parecen bastante interesantes)
+#Voy a empezar explicando porque surgió este método de autentificación, y sus orígenes (me parecen bastante interesantes)
 
 
 Aclarar que, casi nunca, por obvios métodos de seguridad, se suelen guardar contraseñas en texto plano. En su lugar se guardan los hashes.
