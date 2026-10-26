@@ -1,4 +1,4 @@
-# Configuración del servidor (vulnerable)
+# Configuración del servidor (protegido)
 
 ## Entorno
 Sistema operativo: Ubuntu Server 26.04.1 
